@@ -10,6 +10,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
+#include <map>
 
 using namespace std;
 
@@ -21,7 +22,7 @@ const int NB_CHOIX = 4;
 struct TABLEAU 
 {
 	int lienChoix[NB_LIENS];
-	int idTableau;
+	int image;
 	QString titre;
 	QString contenu;
 	QString texteChoix[NB_CHOIX];
@@ -35,6 +36,7 @@ class Class_kimQuestUi
 	int vie;
 	int tableauEnCours;
 	vector <TABLEAU> tableaux;
+	map <int, QString> images;
 
 public:
 	Class_kimQuestUi();
@@ -44,6 +46,8 @@ public:
 	QString setContenu();
 	void afficherTableau(int);
 	void initTableaux();
+	void chargerImages();
+	QString texteImage();
 	int getLien(int);
 	void log(string, string);
 	int TableauActuel() { return tableauEnCours; }

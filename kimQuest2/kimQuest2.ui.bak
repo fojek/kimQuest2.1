@@ -888,13 +888,10 @@
      <string notr="true"/>
     </property>
     <property name="text">
-     <string/>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="kimQuest2.qrc">:/kimQuest2/kimquest2.bmp</pixmap>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

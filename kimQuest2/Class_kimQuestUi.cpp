@@ -13,6 +13,7 @@ Class_kimQuestUi::Class_kimQuestUi()
 {
 	vie = 100;
 	tableauEnCours = 0;
+	chargerImages();
 	qInfo() << "Eh oui.";
 }
 
@@ -40,6 +41,9 @@ QString Class_kimQuestUi::setContenu()
 
 void Class_kimQuestUi::afficherTableau(int num_t)
 {
+	// Tableau en cours et prochain tableau
+	log(std::to_string(tableauEnCours), std::to_string(num_t));
+
 	tableauEnCours = num_t;
 	titre = tableaux[tableauEnCours].titre; 
 	contenu = tableaux[tableauEnCours].contenu;
@@ -78,6 +82,11 @@ void Class_kimQuestUi::initTableaux()
 		getline(fTableaux, buffer);
 		t.titre = QString::fromStdString(buffer);
 
+		// Image d'ambiance
+		getline(fTableaux, buffer);
+		sortie << buffer << " ";
+		t.image = stoi(buffer);
+
 		// Contenu
 		getline(fTableaux, buffer);
 		t.contenu = QString::fromStdString(buffer);
@@ -103,6 +112,7 @@ void Class_kimQuestUi::initTableaux()
 	{
 		sortie << "++++++++++++++++++++++" << endl;
 		sortie << t.titre.toStdString() << endl;
+		sortie << t.image << endl;
 		sortie << t.contenu.toStdString() << endl;
 		for (int i = 0; i < NB_CHOIX; ++i)
 		{
@@ -111,6 +121,18 @@ void Class_kimQuestUi::initTableaux()
 	}
 
 	sortie.close();
+}
+
+void Class_kimQuestUi::chargerImages()
+{
+	images[0] = ":/kimQuest2/champis.PNG";
+	images[1] = ":/kimQuest2/kimquest2.bmp";
+	images[2] = ":/kimQuest2/skull.PNG";
+}
+
+QString Class_kimQuestUi::texteImage()
+{
+	return images.at(tableaux[tableauEnCours].image);
 }
 
 int Class_kimQuestUi::getLien(int lien)

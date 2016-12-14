@@ -18,6 +18,7 @@ private:
 	QPushButton * boutons[4];
 	QLabel * contenu;
 	QLabel * titre;
+	QLabel * imageLabel;
 	QString dude;
 
 private slots:
