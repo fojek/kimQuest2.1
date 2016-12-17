@@ -36,7 +36,7 @@ Un tronc d'arbre barre la route
    Un arbre massif empêchait Kim Pendragon de poursuivre son chemin. Sans hésiter, elle repartit ... 
 3 : ... Par le centre.
 4 : ... Par une fissure, à droite.
-5 : ... À travers les branches, à gauche.
+6 : ... À travers les branches, à gauche.
 0 : 0
 ++++++++++++++++++++++
 Quelque chose bave sous le buisson
@@ -66,8 +66,8 @@ L'ange de la mort
 Un leprechaun !
 3
    Le farfadet, fâché d'avoir été dérangé alors qu'il cueillait des mûres, commenca à invectiver vivement notre héroine. Kim Pendragon ...
-11 : ... Vaporisa une quantité déraisonable de raid sur le leprechaun.
-12 : ... Essaya d'engager la conversation avec la créature.
+8 : ... Vaporisa une quantité déraisonable de raid sur le leprechaun.
+10 : ... Essaya d'engager la conversation avec la créature.
 0 : 0
 0 : 0
 ++++++++++++++++++++++
@@ -105,14 +105,8 @@ blablabla
 0 : 0
 0 : 1
 1 : 2
-2 : 4
-4 : 3
-3 : 4
-4 : 4
-4 : 4
-4 : 4
-4 : 4
-4 : 2
 2 : 5
-5 : 8
-8 : 10
+5 : 7
+7 : 9
+9 : 11
+11 : 12
