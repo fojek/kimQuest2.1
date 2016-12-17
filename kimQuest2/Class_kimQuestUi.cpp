@@ -44,6 +44,9 @@ void Class_kimQuestUi::afficherTableau(int num_t)
 	// Tableau en cours et prochain tableau
 	log(std::to_string(tableauEnCours), std::to_string(num_t));
 
+	if (num_t == 98)
+		num_t = 0;
+
 	tableauEnCours = num_t;
 	titre = tableaux[tableauEnCours].titre; 
 	contenu = tableaux[tableauEnCours].contenu;
