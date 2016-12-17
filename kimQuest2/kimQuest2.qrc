@@ -1,6 +1,11 @@
 <RCC>
   <qresource prefix="kimQuest2">
+    <file>falaise.png</file>
+    <file>anneau.png</file>
     <file>darkforest.jpg</file>
+    <file>antoine.png</file>
+    <file>grotte.png</file>
+    <file>riviere.png</file>
     <file>skull.PNG</file>
     <file>parchemin.jpg</file>
     <file>kimquest2.bmp</file>

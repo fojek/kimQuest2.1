@@ -134,6 +134,12 @@ void Class_kimQuestUi::chargerImages()
 	images[3] = ":/kimQuest2/leprechaun.png";
 	images[4] = ":/kimQuest2/champis.PNG";
 	images[5] = ":/kimQuest2/maison.png";
+	images[6] = ":/kimQuest2/falaise.png";
+	images[7] = ":/kimQuest2/riviere.png";
+	images[8] = ":/kimQuest2/antoine.png";
+	images[9] = ":/kimQuest2/grotte.png";
+	images[10] = ":/kimQuest2/anneau.png";
+
 }
 
 QString Class_kimQuestUi::texteImage()

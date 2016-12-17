@@ -1,4 +1,4 @@
-0 1 1 4 1 1 2 3 3 3 2 5 5 3 1 1 2 6 2 7 8 ++++++++++++++++++++++
+0 1 1 4 1 1 2 3 3 3 2 5 5 3 1 1 4 6 2 7 8 7 7 7 2 1 9 1 4 10 2 1 7 ++++++++++++++++++++++
 Prologue
 0
 Il était une fois, dans une contrée lointaine peuplée d'étranges créatures, une petit royaume juché au sommet d'une colline escarpée autant que fleurie. Le royaume était doté d'un nom grandiose que personne n'utilisait jamais, tous lui préférant celui de Fleurimont.<br><br> Sur ce cadre enchanteur se lève le rideau de l'histoire fantastique dont VOUS SEREZ L'HÉROINE !
@@ -43,7 +43,7 @@ Quelque chose bave sous le buisson
 1
    Soudain, l'attention de Kim Pendragon fut retenue par un bruit provenant d'un buisson. Les feuilles, bien que secouées fortement par moments, masquaient la vue de notre héroine.
 9 : N'écoutant que son courage, elle écarte les branches ...
-8 : Considérant la possible présence d'araignées, elle vaporise une quantité déraisonable de Raid dans le buisson ...
+8 : Elle vaporise une quantité déraisonable de Raid dans le buisson ...
 5 : Interdite, elle recule lentement sans regarder derrière elle ...
 0 : 0
 ++++++++++++++++++++++
@@ -66,7 +66,7 @@ L'ange de la mort
 Un leprechaun !
 3
    Le farfadet, fâché d'avoir été dérangé alors qu'il cueillait des mûres, commenca à invectiver vivement notre héroine. Kim Pendragon ...
-8 : ... Vaporisa une quantité déraisonable de raid sur le leprechaun.
+8 : ... Vaporisa une quantité déraisonable de Raid sur le leprechaun.
 10 : ... Essaya d'engager la conversation avec la créature.
 0 : 0
 0 : 0
@@ -98,14 +98,14 @@ L'espoir renaît
 Chapitre deuxième
 5
 Le prechaun claqua des doigts. Kim Pendragon ressentit un léger vertige et, sans qu'elle soit en mesure d'expliquer comment, elle fut soudain dans la maison du farfadet. Elle était maintenant de la même taille que lui, à en juger par l'immense champignon luminescent à demi entâmé sur la table devant elle!<br><br>Bob parla : « Grmf! Celui qui peut t'aider habite de l'autre côté de l'eau, Eeeerrf. Pfft. Tu devras suivre les pierres bleues pour t'y rendre. Hum! Hem! Je peux t'y téléporter si tu le désires.»
-7 : Kim Pendragon n'avait pas vraiment écouté le farfadet, intriguée par l'énorme champignon. Elle en prit rapidement une grande croquée.
+7 : Kim Pendragon n'avait pas vraiment écouté, et prit une grande croquée du champignon.
 14 : Kim dit : «Je suis prête, Bob. Téléportez-moi!»
 15 : Kim refusa poliment l'offre du farfadet, prétextant avoir besoin d'exercice. Elle sortit par la petite porte.
 0 : 0
 ++++++++++++++++++++++
 La magie de Bob
 3
-La maison sembla croître démesurément alors que Bob agitait ses mains. Ses incantations avaient des échos étranges, comme si plusieurs voix s'ajoutaient à la sienne, et l'air commençait à claquer d'énergie contenue. Le leprechaun ouvrit des yeux sans pupilles et hurla de mille voix un Mot de Pouvoir.<br><br>Kim Pendragon sentit une douleur fulgurante se propager dans tout son être alors que son corps était arraché cellule par cellule, puis ce fut le néant.<br><br>Kim ouvrit les yeux. Elle était à présent juste devant la porte de la maison du Leprechaun, qu'elle entendait rire de bon coeur.
+La maison sembla croître démesurément alors que Bob agitait ses mains. Ses incantations avaient des échos étranges, comme si plusieurs voix s'ajoutaient à la sienne, et l'air commençait à claquer d'énergie contenue. Le leprechaun ouvrit des yeux sans pupilles et hurla de mille voix un Mot de Pouvoir. Kim Pendragon sentit une douleur fulgurante se propager dans tout son être alors que son corps était arraché cellule par cellule, puis ce fut le néant.<br><br>Kim ouvrit les yeux. Elle était à présent juste devant la porte de la maison du Leprechaun, qu'elle entendait rire de bon coeur.
 15 : «La prochaine fois, j'irai à pied... », se dit Kim.
 0 : 0
 0 : 0
@@ -128,8 +128,8 @@ Décidément! Le chemin fourchait de nouveau. Tout droit, le chemin allait en pe
 0 : 0
 ++++++++++++++++++++++
 D'où vient ce doux parfum ?
-2
-Des dizaines de champignons d'un bleu clair tapissaient le sol du bois. D'eux émanait une forte aura magique ainsi que cette odeur si agréable qui avait attiré notre héroïne. Approchant l'oreille, Kim remarqua qu'ils sussuraient doucement, d'une voix suave : « Maaaaaaaaaaaangeee moiiiiiiii ... »
+4
+Des dizaines de champignons d'un bleu clair tapissaient le sol du bois. D'eux émanait une forte aura magique ainsi que cette odeur si agréable qui avait attiré notre héroïne. Approchant l'oreille, Kim remarqua qu'ils sussuraient doucement, d'une voix suave : <br><br>« Maaaaaaaaaaaangeee moiiiiiiii ... »
 7 : Kim Pendragon saisit un champignon et y mordit à belles dents.
 18 : Ignorant les champignons mystérieux, Kim Pendragon continua tout droit.
 15 : Kim décida de faire demi-tour.
@@ -153,8 +153,8 @@ Le vent sifflant dans ses cheveux alors qu'elle tombait vers le fond du ravin, K
 ++++++++++++++++++++++
 Sur la berge de la rivière
 7
-Large d'une dizaine de mètres, la rivière était infranchissable à la nage. Une pierre bleue se trouvait sur la droite. Inconsciemment, Kim Pendragon se sentait attirée vers la gauche ...
-22 : Kim Pendragon remonta la rivière sur la droite.
+Large d'une dizaine de mètres, la rivière était infranchissable à la nage. Une pierre bleue se trouvait sur la droite, à côté d'une barque. Inconsciemment, Kim Pendragon se sentait attirée vers la gauche ...
+22 : Kim Pendragon poussa la barque à l'eau et sauta dedans.
 21 : Au diable la prudence! Kim suivit son instinct et alla à gauche.
 0 : 0
 0 : 0
@@ -163,6 +163,102 @@ Antoine!
 8
 Un de vos pages est assis sur la berge et s'amuse à se lancer du sable sur la tête. C'est Antoine la Boule! Aperçevant Kim Pendragon, celui-ci se retourna et dit joyeusement : « Salut Poupounette! »<br><br>« Et d'un ! », se dit Kim. 
 20 : Kim Pendragon reprit son chemin.
+0 : 0
+0 : 0
+0 : 0
+++++++++++++++++++++++
+La grande traversée
+7
+Il était impossible d'accoster à l'autre rive directement : de gros rochers bloquaient l'accès. Kim pendragon décida de longer la rive ...
+23 : ... En amont
+24 : ... En aval
+0 : 0
+0 : 0
+++++++++++++++++++++++
+En amont
+7
+blabla
+22 : revenir
+26 : berge
+0 : 0
+0 : 0
+++++++++++++++++++++++
+En aval
+7
+blabla
+22 : revenir
+25 : chute
+0 : 0
+0 : 0
+++++++++++++++++++++++
+La chute
+2
+blabla
+99 : GAME OVER! Cliquez pour recommencer.
+0 : 0
+0 : 0
+0 : 0
+++++++++++++++++++++++
+La berge
+1
+blabla
+27 : grotte
+28 : lavoix
+29 : champis
+0 : 0
+++++++++++++++++++++++
+La grotte
+9
+blabla
+3 : champis
+30 : anneau
+26 : berge
+0 : 0
+++++++++++++++++++++++
+La voix
+1
+blabla
+32 : m'artagnan
+0 : 0
+0 : 0
+0 : 0
+++++++++++++++++++++++
+Champignons
+4
+blabla
+26 : berge
+3 : champis
+0 : 0
+0 : 0
+++++++++++++++++++++++
+L'anneau
+10
+blabla
+27 : Grotte
+31 : nazgûl
+0 : 0
+0 : 0
+++++++++++++++++++++++
+Le Nazgûl
+2
+blabla
+99 : GAME OVER! Cliquez pour recommencer.
+0 : 0
+0 : 0
+0 : 0
+++++++++++++++++++++++
+M'Artagnan
+1
+blabla
+33 : Chapitre 3
+0 : 0
+0 : 0
+0 : 0
+++++++++++++++++++++++
+Chapitre 3
+7
+blabla
+0 : 0
 0 : 0
 0 : 0
 0 : 0
@@ -176,4 +272,13 @@ Un de vos pages est assis sur la berge et s'amuse à se lancer du sable sur la t
 11 : 12
 12 : 13
 13 : 14
-14 : 16
+14 : 15
+15 : 19
+19 : 21
+21 : 23
+23 : 21
+21 : 22
+22 : 25
+25 : 26
+26 : 29
+29 : 30
