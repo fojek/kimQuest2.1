@@ -125,9 +125,12 @@ void Class_kimQuestUi::initTableaux()
 
 void Class_kimQuestUi::chargerImages()
 {
-	images[0] = ":/kimQuest2/champis.PNG";
-	images[1] = ":/kimQuest2/kimquest2.bmp";
+	images[0] = ":/kimQuest2/kimquest2.bmp";
+	images[1] = ":/kimQuest2/foret.png";
 	images[2] = ":/kimQuest2/skull.PNG";
+	images[3] = ":/kimQuest2/leprechaun.png";
+	images[4] = ":/kimQuest2/champis.PNG";
+	images[5] = ":/kimQuest2/maison.png";
 }
 
 QString Class_kimQuestUi::texteImage()

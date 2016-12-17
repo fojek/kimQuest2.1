@@ -1,10 +1,12 @@
 <RCC>
   <qresource prefix="kimQuest2">
-    <file>parchemin.png</file>
+    <file>darkforest.jpg</file>
     <file>skull.PNG</file>
+    <file>parchemin.jpg</file>
     <file>kimquest2.bmp</file>
     <file>champis.PNG</file>
-    <file>heart.bmp</file>
-    <file>heart_empty.bmp</file>
+    <file>foret.png</file>
+    <file>maison.png</file>
+    <file>leprechaun.png</file>
   </qresource>
 </RCC>
