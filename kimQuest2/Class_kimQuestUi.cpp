@@ -12,7 +12,7 @@ const int DEPART = 0;
 Class_kimQuestUi::Class_kimQuestUi()
 {
 	vie = 100;
-	tableauEnCours = 0;
+	tableauEnCours = 35;
 	chargerImages();
 	qInfo() << "Eh oui.";
 }
@@ -160,4 +160,42 @@ void Class_kimQuestUi::log(string t, string s)
 	f << t << " : " << s << endl;
 
 	f.close();
+}
+
+void Class_kimQuestUi::checkEvent()
+{
+	switch (tableauEnCours)
+	{
+	case 0:
+		backpack.antoine = false;
+		backpack.baguette = false;
+		backpack.vuVoldemort = false;
+		break;
+	case 20:
+		// Antoine
+		backpack.antoine = true;
+		tableaux[50].lienChoix[0] = 53;
+		tableaux[19].contenu = QString::fromLatin1("Large d'une dizaine de mètres, la rivière était infranchissable à la nage. Une pierre bleue se trouvait sur la droite, à côté d'une barque.");
+		tableaux[19].lienChoix[1] = 0;
+		tableaux[19].texteChoix[1] = QString::fromStdString("0");
+		break;
+	case 40:
+		// Baguette
+		backpack.baguette = true;
+		tableaux[46].lienChoix[0] = 49;
+		tableaux[46].texteChoix[0] = QString::fromLatin1("Kim Pendragon saisit fermement sa baguette et fit face.");
+		tableaux[46].lienChoix[1] = 43;
+		break;
+	case 46:
+		// Vu voldemort
+		backpack.vuVoldemort = true;
+		tableaux[42].lienChoix[0] = 47;
+		tableaux[42].texteChoix[0] = QString::fromLatin1("«Haut les coeurs! on y retourne ...», dit Vilepan.");
+		tableaux[38].lienChoix[0] = 47;
+		tableaux[38].texteChoix[0] = QString::fromLatin1("«Haut les coeurs! on y retourne ...», dit Vilepan.");
+		break;
+	default:
+		// Tableau sans événement
+		break;
+	}
 }

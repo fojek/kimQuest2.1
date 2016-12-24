@@ -13,7 +13,7 @@ kimQuest2::kimQuest2(QWidget *parent)
 	kQui.initTableaux();
 
 	// Le tableau actuel est affiché
-	kQui.afficherTableau(0);
+	kQui.afficherTableau(35);
 
 	// Assignation des pointeurs d'objets
 	titre = ui.titre;
@@ -27,6 +27,9 @@ kimQuest2::kimQuest2(QWidget *parent)
 	boutons[1] = ui.choix2;
 	boutons[2] = ui.choix3;
 	boutons[3] = ui.choix4;
+
+	ui.antoineCB->hide();
+	ui.baguetteCB->hide();
 
 	refresh();
 }
@@ -46,6 +49,11 @@ void kimQuest2::refresh()
 		else
 			boutons[i]->show();
 	}
+
+	kQui.checkEvent();
+
+	if(kQui.checkAntoine()) ui.antoineCB->show();
+	if(kQui.checkBaguette()) ui.baguetteCB->show();
 }
 
 void kimQuest2::on_choix1_clicked()

@@ -41,6 +41,8 @@ public:
     QCheckBox *objectif2;
     QCheckBox *objectif3;
     QCheckBox *objectif4;
+    QCheckBox *antoineCB;
+    QCheckBox *baguetteCB;
 
     void setupUi(QMainWindow *kimQuest2Class)
     {
@@ -306,6 +308,46 @@ public:
         objectif4 = new QCheckBox(centralWidget);
         objectif4->setObjectName(QStringLiteral("objectif4"));
         objectif4->setGeometry(QRect(1010, 230, 131, 20));
+        antoineCB = new QCheckBox(centralWidget);
+        antoineCB->setObjectName(QStringLiteral("antoineCB"));
+        antoineCB->setEnabled(false);
+        antoineCB->setGeometry(QRect(530, 20, 181, 21));
+        QPalette palette3;
+        palette3.setBrush(QPalette::Active, QPalette::WindowText, brush);
+        palette3.setBrush(QPalette::Active, QPalette::Text, brush);
+        palette3.setBrush(QPalette::Active, QPalette::Shadow, brush6);
+        palette3.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
+        palette3.setBrush(QPalette::Inactive, QPalette::Text, brush);
+        palette3.setBrush(QPalette::Inactive, QPalette::Shadow, brush6);
+        palette3.setBrush(QPalette::Disabled, QPalette::WindowText, brush);
+        palette3.setBrush(QPalette::Disabled, QPalette::Text, brush);
+        QBrush brush14(QColor(0, 255, 0, 255));
+        brush14.setStyle(Qt::SolidPattern);
+        palette3.setBrush(QPalette::Disabled, QPalette::Shadow, brush14);
+        antoineCB->setPalette(palette3);
+        QFont font2;
+        font2.setBold(true);
+        font2.setWeight(75);
+        antoineCB->setFont(font2);
+        antoineCB->setStyleSheet(QStringLiteral(""));
+        antoineCB->setIconSize(QSize(32, 32));
+        antoineCB->setCheckable(true);
+        antoineCB->setChecked(true);
+        baguetteCB = new QCheckBox(centralWidget);
+        baguetteCB->setObjectName(QStringLiteral("baguetteCB"));
+        baguetteCB->setEnabled(false);
+        baguetteCB->setGeometry(QRect(530, 40, 70, 17));
+        QPalette palette4;
+        palette4.setBrush(QPalette::Active, QPalette::WindowText, brush);
+        palette4.setBrush(QPalette::Active, QPalette::Text, brush);
+        palette4.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
+        palette4.setBrush(QPalette::Inactive, QPalette::Text, brush);
+        palette4.setBrush(QPalette::Disabled, QPalette::WindowText, brush);
+        palette4.setBrush(QPalette::Disabled, QPalette::Text, brush);
+        baguetteCB->setPalette(palette4);
+        baguetteCB->setFont(font2);
+        baguetteCB->setIconSize(QSize(32, 32));
+        baguetteCB->setChecked(true);
         kimQuest2Class->setCentralWidget(centralWidget);
 
         retranslateUi(kimQuest2Class);
@@ -331,6 +373,8 @@ public:
         objectif2->setText(QApplication::translate("kimQuest2Class", "Objectif2", 0));
         objectif3->setText(QApplication::translate("kimQuest2Class", "Objectif3", 0));
         objectif4->setText(QApplication::translate("kimQuest2Class", "Objectif4", 0));
+        antoineCB->setText(QApplication::translate("kimQuest2Class", "Antoine", 0));
+        baguetteCB->setText(QApplication::translate("kimQuest2Class", "Baguette", 0));
     } // retranslateUi
 
 };

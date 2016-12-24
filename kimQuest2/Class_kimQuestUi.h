@@ -28,6 +28,13 @@ struct TABLEAU
 	QString texteChoix[NB_CHOIX];
 };
 
+struct BACKPACK
+{
+	bool antoine = false;
+	bool baguette = false;
+	bool vuVoldemort = false;
+};
+
 class Class_kimQuestUi
 {
 	QString titre;
@@ -37,6 +44,7 @@ class Class_kimQuestUi
 	int tableauEnCours;
 	vector <TABLEAU> tableaux;
 	map <int, QString> images;
+	BACKPACK backpack;
 
 public:
 	Class_kimQuestUi();
@@ -51,5 +59,8 @@ public:
 	int getLien(int);
 	void log(string, string);
 	int TableauActuel() { return tableauEnCours; }
+	bool checkAntoine() { return backpack.antoine; }
+	bool checkBaguette() { return backpack.baguette; }
+	void checkEvent();
 };
 
